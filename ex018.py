@@ -1,0 +1,10 @@
+from math import radians, sin, cos, tan
+print('CONVERSOR TRIGONOMÉTRICO')
+print('')
+a = float(input('Digite o valor do ângulo: '))
+s = sin(radians(a))
+c = cos(radians(a))
+t = tan(radians(a))
+print('O seno de {}° é igual a \033[4;31m{:.2f}\033[m'.format(a, s))
+print('Seu cosseno é igual a \033[4;32m{:.2f}\033[m'.format(c))
+print('E sua tangente é igual a \033[4;34m{:.2f}'.format(t))

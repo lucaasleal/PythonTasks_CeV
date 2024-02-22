@@ -1,0 +1,5 @@
+print('LOCADORA DE AUTOMÓVEIS')
+d = float(input('Quantos \033[33mdias\033[m de aluguel? '))
+km = float(input('Quantos \033[32mquilômetros\033[m rodados? '))
+v = (d*60) + (km*0.15)
+print('O valor a ser pago é igual a \033[1;36mR${:.2f}\033[m'.format(v))
